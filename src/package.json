@@ -1,17 +1,12 @@
 {
   "name": "@rifo/get-ts-imports",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Get typescript imports from file or directory",
-  "main": "./get-ts-imports/index.ts",
-  "types": "./get-ts-imports/index.d.ts",
-  "scripts": {
-    "start": "ts-node .",
-    "dev:server": "nodemon --watch ./src/index.ts",
-    "build": "npx rimraf ./dist && tsc"
-  },
+  "main": "index.ts",
+  "types": "index.d.ts",
   "keywords": [],
   "author": "Ofir Fridman",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "nodemon": "^2.0.15",
     "ts-morph": "^14.0.0",
