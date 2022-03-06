@@ -1,6 +1,6 @@
 {
   "name": "@rifo/get-ts-imports",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Get typescript imports from file or directory",
   "main": "index.ts",
   "types": "index.d.ts",
