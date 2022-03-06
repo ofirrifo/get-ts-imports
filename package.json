@@ -5,7 +5,7 @@
   "main": "./index.ts",
   "scripts": {
     "start": "nodemon --watch ./src/index.ts",
-    "build": "npx rimraf ./dist && tsc && npm version minor && copyfiles -f ./src/README.md dist && copyfiles -f ./src/package.json dist"
+    "build": "npx rimraf ./dist && tsc && copyfiles -f ./src/README.md dist && copyfiles -f ./src/package.json dist"
   },
   "author": "Ofir Fridman",
   "license": "MIT",
