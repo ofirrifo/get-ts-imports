@@ -5,9 +5,8 @@
   "main": "./index.ts",
   "scripts": {
     "start": "nodemon --watch ./src/index.ts",
-    "build": "npx rimraf ./dist && tsc"
+    "build": "npx rimraf ./dist && tsc && npm version minor && copyfiles -f ./src/README.md dist && copyfiles -f ./src/package.json dist"
   },
-  "keywords": [],
   "author": "Ofir Fridman",
   "license": "MIT",
   "devDependencies": {
@@ -17,3 +16,4 @@
     "typescript": "^4.6.2"
   }
 }
+
